@@ -1,7 +1,7 @@
 import { Fragment } from 'react'; //<div></div>랑 같은 거
 import classes from './Header.module.css';
 import oliveyoungImage from '../../assets/oliveyoung.png';
-import bg_top from '../../assets/oliveyoung_bg_top.png';
+import bg_top from '../../assets/oliveyoung_bg_topsmall.png';
 import HeaderCartButton from './HeaderCartButton';
 
 const Header = (props) => {

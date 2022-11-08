@@ -1,23 +1,22 @@
-.explanation {
-    margin: 5% 25%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: aliceblue;
-    border-radius: 15px;
+.section {
+    padding: 5% 10%;
+    background-color: 
+    #a2c767;
     box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
 }
-
-.explanation >h2 , .explanation >p {
-    width: 100%;
-    text-align: center;
+.section >h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 0px;
+    color: #eff6e1;
 }
-
-.explanation h2 {
-    margin: 0;
-    margin-top: 16px;
+.section>p {
+    margin: 0px;
+    /* color: #665e50; */
 }
-
-.explanation >p {
-    margin-bottom: 0;
+.section>p span {
+    color: #eff6e1;
+}
+.description {
+    padding: 5% 5%;
 }
